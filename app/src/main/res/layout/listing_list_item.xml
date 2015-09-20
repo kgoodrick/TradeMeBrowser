@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:id="@+id/listItem">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listingPreviewImageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/listing_preview"
+        android:layout_alignParentBottom="true"
+        android:background="@color/White_White"
+        android:minHeight="80dp"
+        android:minWidth="80dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/listingLocationTextView"
+        android:textColor="@color/Gray_LightSlateGray"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/listingPreviewImageView"
+        android:layout_toEndOf="@+id/listingPreviewImageView"
+        android:textSize="@dimen/listing_text_small"
+        android:paddingLeft="3dp"
+        android:paddingTop="3dp"
+        android:paddingRight="3dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Now I am going to write a really long text string to see what happens"
+        android:id="@+id/listingDescriptionTextView"
+        android:layout_below="@+id/listingLocationTextView"
+        android:layout_toRightOf="@+id/listingPreviewImageView"
+        android:paddingLeft="3dp"
+        android:textColor="@color/Black"
+        android:textSize="@dimen/listing_text_large"
+        android:lines="2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/listingReserveTextView"
+        android:layout_toRightOf="@+id/listingPreviewImageView"
+        android:layout_toEndOf="@+id/listingPreviewImageView"
+        android:layout_alignParentBottom="true"
+        android:padding="3dp"
+        android:textSize="@dimen/listing_text_small"
+        android:textColor="@color/Gray_LightSlateGray" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/listingBidPriceTextView"
+        android:layout_toRightOf="@+id/listingPreviewImageView"
+        android:paddingLeft="3dp"
+        android:textSize="@dimen/listing_text_medium"
+        android:textStyle="bold"
+        android:textColor="@color/Black"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/listingBidCountTextView"
+        android:layout_toRightOf="@+id/listingReserveTextView"
+        android:layout_toEndOf="@+id/listingReserveTextView"
+        android:textSize="@dimen/listing_text_small"
+        android:textColor="@color/Gray_LightSlateGray"
+        android:paddingBottom="3dp"
+        android:paddingLeft="25dp"
+        android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/listingBuyNowTextView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:padding="3dp"
+        android:textSize="@dimen/listing_text_small"
+        android:textColor="@color/Orange_DarkOrange"
+        android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/listingBuyNowPriceTextView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:paddingRight="3dp"
+        android:textColor="@color/Orange_DarkOrange"
+        android:textSize="@dimen/listing_text_medium"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="15dp" />
+
+</RelativeLayout>

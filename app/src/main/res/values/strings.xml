@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">TradeMe Browser</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_exit">Exit</string>
+
+    <!-- All your security are belong to us -->
+    <string name="oauth_consumer_key">oauth_consumer_key</string>
+    <string name="oauth_signature_method">oauth_signature_method</string>
+    <string name="oauth_signature">oauth_signature</string>
+    <string name="consumer_key">80E2FC535F6A30B4CA9CF800D1A9DE2D</string>
+    <string name="consumer_secret">43583841DA059447F6D757ACAC2AC2C6</string>
+    <string name="plaintext_uc">PLAINTEXT</string>
+
+    <!-- API URL strings -->
+    <string name="api_scheme">https</string>
+    <string name="api_authority">api.tmsandbox.co.nz</string>
+    <string name="api_version">v1</string>
+    <string name="api_categories">Categories</string>
+    <string name="api_search">Search</string>
+    <string name="api_general">general</string>
+    <string name="api_listing">Listings</string>
+    <string name="api_response_format">.json</string>
+    <string name="param_category">category</string>
+    <string name="param_rows">rows</string>
+
+    <!-- Title labels -->
+    <string name="title_categories">Categories</string>
+    <string name="title_listings">Listings</string>
+    <string name="title_Listing">Listing</string>
+
+    
+    <!-- Intent extra keys -->
+    <string name="category_id">category_id</string>
+    <string name="listing_id">listing_id</string>
+    <string name="photo_url">photo_url</string>
+
+</resources>
